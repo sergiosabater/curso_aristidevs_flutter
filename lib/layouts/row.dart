@@ -8,10 +8,10 @@ class RowExample extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(top: 86),
       child: SizedBox(
-        // height: double.infinity,
+        height: double.infinity,
         child: Row(
-          // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          // crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text('Item 1'),
             Expanded(child: Text('Item 2')),
